@@ -1,0 +1,25 @@
+{
+  "name": "tallbag-from-iter",
+  "version": "1.0.0",
+  "description": "Convert an iterable or iterator to a tallbag pullable source",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/tallbag-from-iter.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag",
+    "tallbag"
+  ],
+  "dependencies": {
+    "shadow-callbag": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
